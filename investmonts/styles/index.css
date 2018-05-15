@@ -50,7 +50,7 @@ textarea:focus, input:focus, button:focus {
 }
 .lang_bar {
     height: 30px;
-    width: 30%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,6 +437,10 @@ button p:nth-of-type(2) {
     .member_wrapper {
         width: 50%;
     }
+    .member_info {
+        font-size: 2vw;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 767px) {
     .lang_bar {
@@ -513,7 +517,11 @@ button p:nth-of-type(2) {
     }
     .team_members img { 
         width: 80%; 
-    } 
+    }
+    .member_info {
+        font-size: 2.7vw;
+        margin: 0 auto;
+    }
     button p:nth-of-type(1) { 
         font-size: 100%; 
     } 
@@ -544,10 +552,6 @@ button p:nth-of-type(2) {
     }
     .modal-body img {
         width: 40%;
-    }
-    .member_info {
-        font-size: 2.7vw;
-        margin: 0 auto;
     }
     .sidebar {
         height: 20%;
@@ -628,10 +632,6 @@ button p:nth-of-type(2) {
     }
     .modal-body img {
         width: 40%;
-    }
-    .member_info {
-        width: 70%;
-        margin: 0 auto;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px){
