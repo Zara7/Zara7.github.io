@@ -38,6 +38,7 @@ textarea:focus, input:focus, button:focus {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 0;
 }
 .sidebar {
     height: 100vh;
@@ -168,8 +169,9 @@ header a:hover {
 .about_background {
     height: 100vh;
     background: url(../images/main_background.png);
-    background-position: top right;
-    background-size: 80% 100%;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(80%);
 }
 .about_background span {
     width: 33%;
@@ -401,12 +403,12 @@ button p:nth-of-type(2) {
         background-position: center;
         background-size: 16%;
     }
-    .about_background,.theam_background, .organization_background {
+    .theam_background, .organization_background {
         height: 50vh;
     }
 }
 @media screen and (max-width: 374px){
-    .about_background,.theam_background, .organization_background {
+    .theam_background, .organization_background {
         height: 40vh;
     }
 }
@@ -485,7 +487,7 @@ button p:nth-of-type(2) {
         min-height: 0;
     }
     .about_background {
-        background-size: 100% 63%;
+        height: 50vh;
     }
     .about_background h2 {
         text-align-last: left;
@@ -564,9 +566,6 @@ button p:nth-of-type(2) {
 @media screen and (min-width: 480px) and (max-width: 991px){
     .row2 img:nth-of-type(1) {
         width: 25%;
-    }
-    .about_background {
-        background-size: 100% 100%;
     }
     .theam_background {
          background-size: 100% 100%;

@@ -193,6 +193,9 @@ sidebar {
     }
 }
 @media screen and (max-width: 767px) {
+    .services_background {
+       padding: 0 15px 0 15px;
+    }
     .services_background span {
         width: 100%;
         margin-top: 3vh;
