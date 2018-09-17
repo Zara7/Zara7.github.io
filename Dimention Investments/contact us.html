@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="styles/contact%20us.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container-fluid">
+       <div class="row">
+        <sidebar class="col-xs-12 sidebar">
+           <header class="col-xs-12">
+                  <div class="lang_bar hidden-xs">
+                        <button>ENG</button>
+                        <button>ՀԱՅ</button> 
+                  </div>
+                  <div class="logo_wrapper hidden-xs">
+                     <a href="index.html"></a>
+                  </div>
+                   <navbar class="navbar navbar-default">
+                       <div class="navbar-header">
+                           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>    
+                           </button>
+                        </div>
+                        <div class="logo_wrapper hidden-sm hidden-md hidden-lg">
+                             <a href="index.html"></a>
+                        </div>
+                       <div class="lang_bar hidden-sm hidden-md hidden-lg">
+                            <button>ENG</button>
+                            <button>ՀԱՅ</button> 
+                      </div>
+                     <div class="collapse navbar-collapse" id="collapse">
+                           <ul>
+                               <li><a href="about%20us.html" class="about">ABOUT US</a></li>
+                               <li><a href="services.html">SERVICES</a></li>
+                               <li><a href="investors%20relations.html">INVESTOR RELATIONS</a></li>
+                               <li><a href="account%20opening.html">ACCOUNT OPENING</a></li>
+                               <li><a href="regulation.html">REGULATION</a></li>
+                               <li><a href="career.html">CAREER</a></li>
+                               <li><a href="contact%20us.html">CONTACT</a></li>
+                          </ul>
+                       </div>
+                   </navbar>
+               </header>
+              <footer class="hidden-xs col-sm-12 footer">
+                   <div class="row1">
+                    <img class="img-responsive" src="images/naghashyan.png" alt="naghashyan"/>
+                   </div>
+                   <div class="row2">
+                       <img class="img-responsive" src="images/hashtarar.png" alt="hashtarar"/>
+                       <img class="img-responsive" src="images/abbc1.png" alt="abbc1"/>
+                   </div>
+                   <div style="clear: left"></div>
+                   <div class="row3">
+                    <p>Dimension is not responsible for the accuracy and reliability of the information and/or advertisements presented on the third party websites linked from this website and assumes no responsibility for the consequences arising from the use of the said information.</p>
+                   </div>
+               </footer>
+            </sidebar>
+        <main class="col-xs-12 main">
+              <div class="col-xs-12 col-md-5 contact_us">
+                  <div class="row">
+                      <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1">
+                          <h2>CONTACT US</h2>
+                          <form class="col-xs-12">
+                              <input id="name" name="name" type="text" class="form-control" placeholder="Name*"  required/>
+                              <input id="email" name="email" type="email" class="form-control" placeholder="E-mail*"  required/>
+                              <input id="subject" name="subject" type="text" class="form-control" placeholder="Subject*"  required/>
+                              <textarea class="form-control" id="message" placeholder="Message*" rows="8"  required></textarea>
+                              <button type="submit" class="btn mb-2">Send message</button>
+                          </form>
+                          <div class="col-xs-12 info">
+                              <table>
+                                    <tbody>
+                                        <tr>
+                                            <th title="Address" rowspan="3">A.</th>
+                                            <td><a href="#">15 Khorenatsi str.,</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#">Yerevan  0010,</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#">Armenia</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th title="Telephone" rowspan="2">T.</th>
+                                            <td><a href="#">+374 00 000 000</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#">+374 00 000 000</a></td>
+                                        </tr>
+                                         <tr>
+                                            <th title="E-mail">E.</th>
+                                            <td><a href="#">info@dimension.am</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th title="Web Page">W.</th>
+                                            <td><a href="#">www.dimension.com</a></td>
+                                        </tr>
+                                    </tbody>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="map" class="col-xs-12 col-md-7 map"></div>
+              <div id="content"></div>
+              <div class="row">
+                   <footer class="col-xs-12 footer mobile">
+                       <div class="row1">
+                        <img class="img-responsive" src="images/naghashyan.png" alt="naghashyan"/>
+                       </div>
+                       <div class="row2">
+                           <img class="img-responsive" src="images/hashtarar.png" alt="hashtarar"/>
+                           <img class="img-responsive" src="images/abbc1.png" alt="abbc1"/>
+                       </div>
+                       <div style="clear: left"></div>
+                       <div class="row3">
+                        <p>Dimension is not responsible for the accuracy and reliability of the information and/or advertisements presented on the third party websites linked from this website and assumes no responsibility for the consequences arising from the use of the said information.</p>
+                       </div>
+                    </footer>
+              </div>
+        </main>
+       </div>
+   </div>
+    <script>
+      var map, popup, Popup;
+      function initMap() {
+        definePopupClass();
+          
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.175063, lng: 44.509726},
+          zoom: 16,
+        styles: 
+    [
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "visibility": "off"
+                },
+                {
+                    "color": "#ab0c0c"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#444444"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "color": "#f2f2f2"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "visibility": "on"
+                },
+                {
+                    "color": "#e3e3e3"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape.natural.landcover",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#ff0000"
+                },
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "landscape.natural.terrain",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#ff0000"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "visibility": "on"
+                },
+                {
+                    "color": "#c3c3c3"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "lightness": 45
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "geometry.fill",
+            "stylers": [
+                {
+                    "color": "#ffffff"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "color": "#fb0000"
+                },
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "geometry.stroke",
+            "stylers": [
+                {
+                    "visibility": "off"
+                },
+                {
+                    "color": "#ff0000"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [
+                {
+                    "color": "#004966"
+                },
+                {
+                    "visibility": "on"
+                }
+            ]
+        }
+    ]
+        });
+          popup = new Popup(
+          new google.maps.LatLng(40.175063, 44.509726),
+          document.getElementById('content'));
+          popup.setMap(map);
+      }
+/** Defines the Popup class. */
+function definePopupClass() {
+  /**
+   * A customized popup on the map.
+   * @param {!google.maps.LatLng} position
+   * @param {!Element} content
+   * @constructor
+   * @extends {google.maps.OverlayView}
+   */
+  Popup = function(position, content) {
+    this.position = position;
+
+    content.classList.add('popup-bubble-content');
+
+    var pixelOffset = document.createElement('div');
+    pixelOffset.classList.add('popup-bubble-anchor');
+    pixelOffset.appendChild(content);
+    var figure = document.createElement('figure'),
+        address = document.createElement('div'),
+        first_span = document.createElement('span'),
+        second_span = document.createElement('span'),
+        br = document.createElement('br'),
+        directions = document.createElement('div');
+        figurImg = document.createElement('img');
+        figurImg.setAttribute('src', 'images/contact_page_logo.png');
+        figurImg.setAttribute('alt', 'logo');
+        figure.appendChild(figurImg);
+        content.appendChild(figure);
+        address.classList.add('address');
+        content.appendChild(address);
+        first_span.innerHTML='Dimension Office';
+        address.appendChild(first_span);
+        address.appendChild(br);
+        second_span.innerHTML = '15 Khorenatsi str.,Yerevan 0010,Armenia';
+        address.appendChild(second_span);
+        directions.classList.add('get_directions');
+        directions.innerHTML = 'Get Directions';
+        content.appendChild(directions);
+    this.anchor = document.createElement('div');
+    this.anchor.classList.add('popup-tip-anchor');
+    this.anchor.appendChild(pixelOffset);
+
+    // Optionally stop clicks, etc., from bubbling up to the map.
+    this.stopEventPropagation();
+  };
+  // NOTE: google.maps.OverlayView is only defined once the Maps API has
+  // loaded. That is why Popup is defined inside initMap().
+  Popup.prototype = Object.create(google.maps.OverlayView.prototype);
+
+  /** Called when the popup is added to the map. */
+  Popup.prototype.onAdd = function() {
+    this.getPanes().floatPane.appendChild(this.anchor);
+  };
+
+  /** Called when the popup is removed from the map. */
+  Popup.prototype.onRemove = function() {
+    if (this.anchor.parentElement) {
+      this.anchor.parentElement.removeChild(this.anchor);
+    }
+  };
+
+  /** Called when the popup needs to draw itself. */
+  Popup.prototype.draw = function() {
+    var divPosition = this.getProjection().fromLatLngToDivPixel(this.position);
+    // Hide the popup when it is far out of view.
+    var display =
+        Math.abs(divPosition.x) < 4000 && Math.abs(divPosition.y) < 4000 ?
+        'block' :
+        'none';
+
+    if (display === 'block') {
+      this.anchor.style.left = divPosition.x + 'px';
+      this.anchor.style.top = divPosition.y + 'px';
+    }
+    if (this.anchor.style.display !== display) {
+      this.anchor.style.display = display;
+    }
+  };
+
+  /** Stops clicks/drags from bubbling up to the map. */
+  Popup.prototype.stopEventPropagation = function() {
+    var anchor = this.anchor;
+    anchor.style.cursor = 'auto';
+
+    ['click', 'dblclick', 'contextmenu', 'wheel', 'mousedown', 'touchstart',
+     'pointerdown']
+        .forEach(function(event) {
+          anchor.addEventListener(event, function(e) {
+            e.stopPropagation();
+          });
+        });
+  };
+}
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBghWM6DLnmuGOSgR_ytluVe3Z7Efk_wyA&callback=initMap"></script>
+</body>
+</html>
