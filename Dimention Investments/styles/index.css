@@ -720,3 +720,10 @@ button p:nth-of-type(2) {
         background-size: 9%;
     }
 }
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        .parallax {
+             background-attachment: scroll;
+        }
+    }
+}
