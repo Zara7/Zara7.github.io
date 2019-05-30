@@ -41,8 +41,11 @@ textarea:focus, input:focus, button:focus {
     padding: 0;
 }
 .sidebar {
-    height: 100vh;
+    height: 100%;
     width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
     position: fixed;
     font-family: "Century Gothic";
     background: #001f2f;
@@ -75,9 +78,7 @@ textarea:focus, input:focus, button:focus {
     font-family: Arial-AMU-Regular;
     font-weight: bold;
 }
-header {
-    height: 85vh;
-}
+
 header ul {
     list-style: none;
     margin-top: 10px;
@@ -135,10 +136,6 @@ header a:hover {
     background-color: transparent;
 }
 .footer {
-    min-height: 15vh;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
     padding: 0;
     margin: 0;
 }
