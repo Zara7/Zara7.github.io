@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+		<ul class="small_menu">
+			<li><a href="#">Schnellbestellung</a></li>
+			<li><a href="#">Wunschzettel</a></li>
+			<li><a href="#">Mein Konto</a></li>
+			<li><a href="#">Service/Hilfe</a></li>
+		</ul>
+		<div class="header_wrapper">
+			<div class="logo_wrapper">
+				<a href="#">
+					<figure>
+						<img alt="logo "src="images/main_logo.png"/>
+					</figure>
+				</a>
+			</div>
+			<div class="search_wrapper">
+				<input type="search" placeholder="Suche:"/>
+				<figure>
+				<img alt="zerti_gold" src="images/zerti_gold.png"/>
+				</figure>
+			</div>
+			<div class="shopping_card">
+				<figure>
+					<img alt="chart" src="images/chart.png"/>
+				</figure>
+				<div class="select_wrapper">
+					<select name="" form="">
+						<option value="0">106,89 € *</option>
+						<option value="1"></option>
+						<option value="2"></option>
+						<option value="3"></option>
+				</select>
+				<button>zur Kasse</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<navbar>
+		<ul class="main_nav">
+			<li class="elephant"><a href="#"><img alt="elephant" src="images/elephant.png"/></a></li>
+			<li><a href="#">Autositze</a></li>
+			<li><a href="#">Baby Pflege</a></li>
+			<li><a href="#">Baby Sicherheit</a></li>
+			<li><a href="#">Baby Unterwegs</a></li>
+			<li><a href="#"> Babymöbel </a></li>
+			<li><a href="#">Bettausstattung</a></li>
+			<li><a href="#"> Für die Mama</a></li>
+			<li><a href="#"> Spiel & Spaß</a></li>
+			<li><a href="#"> Sterntaler</a></li>
+		</ul>
+	</navbar>
+	<div class="versant">
+		<ul class="versant_menu">
+			<li><a href="#">11 Jahre Babyland</a></li>
+			<li><a href="#">ab 20 EUR kostenloser Versand</a></li>
+			<li><a href="#">über 10.000 Artikel</a></li>
+		</ul>
+	</div>
+  <main>Article</main>
+  <footer">Footer</footer>
+	</div>
+</body>
+</html>
